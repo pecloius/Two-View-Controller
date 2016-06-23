@@ -14,6 +14,7 @@
 		62A2B3221D1B86DD00E277EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A2B3201D1B86DD00E277EB /* LaunchScreen.storyboard */; };
 		62A2B32D1D1B86DD00E277EB /* Two_View_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A2B32C1D1B86DD00E277EB /* Two_View_ControllerTests.swift */; };
 		62A2B3381D1B86DD00E277EB /* Two_View_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A2B3371D1B86DD00E277EB /* Two_View_ControllerUITests.swift */; };
+		62A2B3461D1B88F600E277EB /* PeckoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A2B3451D1B88F600E277EB /* PeckoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		62A2B3331D1B86DD00E277EB /* Two View ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two View ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A2B3371D1B86DD00E277EB /* Two_View_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_View_ControllerUITests.swift; sourceTree = "<group>"; };
 		62A2B3391D1B86DD00E277EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A2B3451D1B88F600E277EB /* PeckoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeckoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				62A2B3171D1B86DD00E277EB /* AppDelegate.swift */,
 				62A2B3191D1B86DD00E277EB /* ViewController.swift */,
+				62A2B3451D1B88F600E277EB /* PeckoViewController.swift */,
 				62A2B31B1D1B86DD00E277EB /* Main.storyboard */,
 				62A2B31E1D1B86DD00E277EB /* Assets.xcassets */,
 				62A2B3201D1B86DD00E277EB /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				62A2B31A1D1B86DD00E277EB /* ViewController.swift in Sources */,
 				62A2B3181D1B86DD00E277EB /* AppDelegate.swift in Sources */,
+				62A2B3461D1B88F600E277EB /* PeckoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

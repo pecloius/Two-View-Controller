@@ -21,5 +21,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func gotoSecond(sender: AnyObject) {
+        
+        let goToSecond = self.storyboard?.instantiateViewControllerWithIdentifier("PeckoView") as! PeckoViewController
+        
+        self.navigationController?.pushViewController(goToSecond, animated: true)
+        
+        
+    }
+    
+    
 }
 
